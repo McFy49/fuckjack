@@ -3,7 +3,7 @@
 #
 # The "Fuck Jack" bash script
 #
-# For AOSP versions 7.0 to 7.1.1
+# For AOSP versions oreo
 #
 # Written by Michael S Corigliano (Mike Criggs) (michael.s.corigliano@gmail.com)
 # Taken & adapted from my EZ AOSP tool, available here: https://github.com/mikecriggs/ez-aosp
@@ -49,7 +49,7 @@
 # You may need to uncomment the following command if Java tells you to use it.
 #     ulimit -n unlimited
 
-    ./prebuilts/sdk/tools/jack-admin install-server prebuilts/sdk/tools/jack-launcher.jar prebuilts/sdk/tools/jack-server-4.8.ALPHA.jar
+    ./prebuilts/sdk/tools/jack-admin install-server prebuilts/sdk/tools/jack-launcher.jar prebuilts/sdk/tools/jack-server-4.11.ALPHA.jar
     ./prebuilts/sdk/tools/jack-admin start-server
   else
     echo -e ${BLDRED}"Not using JACK workarounds..."${RST}
